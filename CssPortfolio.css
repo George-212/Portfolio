@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #3AAfa9;
+    color: #17252a;
+}
+main {
+    flex: 1; 
+}
+
+h1 {
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+h2 {
+    padding-top: 35px;
+    padding-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer {
+    background-color: #2b7a78;
+    color: #def2f1;
+    padding: 15px 20px;
+}
+
+nav {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button {
+    background-color: #17252a;
+    color: #def2f1;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .5s ease, transform .5s ease;
+  }
+  button:hover {
+    background-color: #2b7a78;
+  }
+  
